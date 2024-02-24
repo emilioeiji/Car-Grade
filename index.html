@@ -5,12 +5,360 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Car Grade</title>
+    <link rel="stylesheet" href="css/global.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/73a9bacda2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-xl-12">
+                <header class="my-2">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/logos/Logo-Ret-Preto-Laranja-Sharp.png" alt="Logo" width="200"
+                                    class="d-inline-block align-text-top">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Marcas
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Daihatsu</a></li>
+                                            <li><a class="dropdown-item" href="#">Honda</a></li>
+                                            <li><a class="dropdown-item" href="#">Lexus</a></li>
+                                            <li><a class="dropdown-item" href="#">Mazda</a></li>
+                                            <li><a class="dropdown-item" href="#">Mitsubishi</a></li>
+                                            <li><a class="dropdown-item" href="#">Nissan</a></li>
+                                            <li><a class="dropdown-item" href="#">Subaru</a></li>
+                                            <li><a class="dropdown-item" href="#">Suzuki</a></li>
+                                            <li><a class="dropdown-item" href="#">Toyota</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Outras</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Categorias
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Compacto</a></li>
+                                            <li><a class="dropdown-item" href="#">Coupe</a></li>
+                                            <li><a class="dropdown-item" href="#">Crossover</a></li>
+                                            <li><a class="dropdown-item" href="#">Diesel</a></li>
+                                            <li><a class="dropdown-item" href="#">Elétrico</a></li>
+                                            <li><a class="dropdown-item" href="#">Hatchback</a></li>
+                                            <li><a class="dropdown-item" href="#">Hybrido</a></li>
+                                            <li><a class="dropdown-item" href="#">Luxo</a></li>
+                                            <li><a class="dropdown-item" href="#">Minivan</a></li>
+                                            <li><a class="dropdown-item" href="#">Pickup Truck</a></li>
+                                            <li><a class="dropdown-item" href="#">Sedan</a></li>
+                                            <li><a class="dropdown-item" href="#">SUV</a></li>
+                                            <li><a class="dropdown-item" href="#">Van</a></li>
+                                            <li><a class="dropdown-item" href="#">Wagon</a></li>
+                                            <li><a class="dropdown-item" href="#">Conversível</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Outros</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" aria-disabled="true">Outos</a>
+                                    </li>
+                                </ul>
+                                <span class="d-flex">
+                                    <i class="fa-solid fa-user"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div class="container-fluid d-none d-lg-block px-0">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <svg class="bd-placeholder-img" width="100%" height="100%"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect height="100%" width="100%" fill="#231F20" />
+                                    </svg>
+                                    <div class="carousel-caption d-none d-md-block carousel-text-yellow">
+                                        <h5>Descubra o Japão sobre Rodas!</h5>
+                                        <p>Explore nossa seleção de carros usados de alta qualidade diretamente do
+                                            Japão. Encontre a sua próxima aventura sobre rodas conosco!</p>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <svg class="bd-placeholder-img" width="100%" height="100%"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect height="100%" width="100%" fill="#FCC708" />
+                                    </svg>
+                                    <div class="carousel-caption d-none d-md-block carousel-text-black">
+                                        <h5>Encontre Seu Próximo Carro Aqui!</h5>
+                                        <p>Na nossa loja, oferecemos uma ampla variedade de carros usados japoneses em
+                                            excelentes condições. Compre com confiança e descubra qualidade a preços
+                                            acessíveis!</p>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <svg class="bd-placeholder-img" width="100%" height="100%"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect height="100%" width="100%" fill="#231F20" />
+                                    </svg>
+                                    <div class="carousel-caption d-none d-md-block carousel-text-yellow">
+                                        <h5>Conecte-se Conosco!</h5>
+                                        <p>Siga-nos nas redes sociais para ficar por dentro das últimas ofertas, novos
+                                            estoques e dicas úteis sobre manutenção de carros. Junte-se à nossa
+                                            comunidade hoje mesmo!</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+
+                    <div class="container py-2 d-flex justify-content-center rounded">
+                        <spa class="custom-text-black">
+                            <h1>Adicionados Recentes!</h1>
+                        </spa>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                        <div class="col d-flex">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/carros/1_1.jpeg" class="card-img-top img-capa" alt="Stingray">
+                                </a>
+                                <div class="card-body pb-4">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <h4 class="card-title">
+                                            Stingray
+                                        </h4>
+                                    </a>
+                                    <p class="card-text">
+                                        Marca - Suzuki
+                                        Modelo - Stingray
+                                        Ano - XX
+                                        KM - XXXX
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted d-flex justify-content-end">
+                                            2024-02-25
+                                        </small>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-center">
+                                                <div class="span me-3 btn">
+                                                    <i class="fa-solid fa-share"></i>
+                                                    Compartilhar
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/carros/2_1.jpeg" class="card-img-top img-capa" alt="N Box">
+                                </a>
+                                <div class="card-body pb-4">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <h4 class="card-title">
+                                            N Box
+                                        </h4>
+                                    </a>
+                                    <p class="card-text">
+                                        Marca - Honda
+                                        Modelo - Stingray
+                                        Ano - XX
+                                        KM - XXXX
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted d-flex justify-content-end">
+                                            2024-02-25
+                                        </small>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-center">
+                                                <div class="span me-3 btn">
+                                                    <i class="fa-solid fa-share"></i>
+                                                    Compartilhar
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/carros/3_1.jpeg" class="card-img-top img-capa" alt="Tanto">
+                                </a>
+                                <div class="card-body pb-4">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <h4 class="card-title">
+                                            Tanto
+                                        </h4>
+                                    </a>
+                                    <p class="card-text">
+                                        Marca - Daihatsu
+                                        Modelo - Tanto
+                                        Ano - XX
+                                        KM - XXXX
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted d-flex justify-content-end">
+                                            2024-02-25
+                                        </small>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-center">
+                                                <div class="span me-3 btn">
+                                                    <i class="fa-solid fa-share"></i>
+                                                    Compartilhar
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/carros/4_1.jpeg" class="card-img-top img-capa" alt="Spacia">
+                                </a>
+                                <div class="card-body pb-4">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <h4 class="card-title">
+                                            Spacia
+                                        </h4>
+                                    </a>
+                                    <p class="card-text">
+                                        Marca - Suzuki
+                                        Modelo - Spacia
+                                        Ano - XX
+                                        KM - XXXX
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted d-flex justify-content-end">
+                                            2024-02-25
+                                        </small>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-center">
+                                                <div class="span me-3 btn">
+                                                    <i class="fa-solid fa-share"></i>
+                                                    Compartilhar
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer-botom custom-footer">
+        <footer class="py-4 mt-2 ">
+            <div class="container-fluid text-white">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 text-left">
+                        <h5 class="text-uppercase fw-bold">Quem somos?</h5>
+                        <p>Somos uma equipe apaixonada por carros, comprometida em oferecer os melhores veículos usados
+                            do mercado. Com décadas de experiência e um serviço excepcional, estamos aqui para ajudá-lo
+                            a encontrar o carro dos seus sonhos.</p>
+                    </div>
+                    <div class="col-lg-4 text-left">
+                        <h5 class="text-uppercase fw-bold">Onde queremos chegar?</h5>
+                        <p>Nosso objetivo é proporcionar a melhor experiência de compra de carros usados. Nos esforçamos
+                            para superar suas expectativas, oferecendo veículos de alta qualidade, transparência e
+                            suporte contínuo. Junte-se a nós nesta jornada e descubra o carro perfeito para você!</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="text-uppercase fw-bold">Siga-nos nas redes</h5>
+                        <p>Fique por dentro das últimas novidades, ofertas exclusivas e dicas úteis sobre carros
+                            seguindo-nos nas redes sociais.</p>
+                        <p>
+                            <i class="fa-brands fa-instagram"></i>
+                            <a href="#" class="text-white" style="text-decoration:none;">Instagram</a>
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-facebook"></i>
+                            <a href="#" class="text-white" style="text-decoration:none;">Facebook</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

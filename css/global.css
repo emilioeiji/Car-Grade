@@ -1,0 +1,32 @@
+.carousel-text-yellow h5,
+.carousel-text-yellow p {
+    color: #FCC708;
+}
+
+.carousel-text-black h5,
+.carousel-text-black p {
+    color: #231F20;
+}
+
+.custom-text-black h1,
+.custom-text-black p {
+    color: #231F20;
+}
+
+.custom-text-yellow h1,
+.custom-text-yellow p {
+    color: #FCC708;
+}
+
+.footer-botom {
+    flex: 0 0 50px;/* or just height: 50px; */
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #231F20;
+}
+
+.footer-botom h5 {
+    color: #FCC708; /* Altera a cor do elemento h5 dentro do rodapé */
+}

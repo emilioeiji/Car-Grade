@@ -19,6 +19,10 @@
     color: #FCC708;
 }
 
+.car-card-text .price {
+    color: #C5283D;
+}
+
 .footer-botom {
     flex: 0 0 50px;/* or just height: 50px; */
     margin-top: auto;

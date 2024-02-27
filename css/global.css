@@ -23,6 +23,15 @@
     color: #C5283D;
 }
 
+.car-card-text i {
+    color: #FCC708;
+}
+
+.car-card-text .text {
+    color: #231F20;
+}
+
+
 .footer-botom {
     flex: 0 0 50px;/* or just height: 50px; */
     margin-top: auto;
